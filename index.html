@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Store</title>
+    <meta charset="utf-8" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script src="myJsCode.js"></script>
+    <style>
+        body {
+            background-color: rgba(11, 72, 26, 0.27);
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 60px;
+        }
+        .form-control {
+            width: 60%;
+        }
+
+        #ISBNCol {
+            display: none;
+        }
+
+        .MarginRight {
+            margin-right: 5px;
+        }
+
+        #ADDbtn, #AnotherFieldBtn {
+            margin-top: 32px;
+        }
+
+        .NewWidth {
+            width: 61px;
+        }
+
+        #myTable {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+            #myTable th,td {
+                width: 21%;
+                padding: 6px;
+                border-bottom : 1px solid #c8e6c9;
+                font-size:16px;
+            }
+            #myTable th{
+                border-top : 1px solid #c8e6c9;
+            }
+            #myTable tr:hover{
+                background-color:#9cb59c;
+                color:white;
+            }
+            h4{
+                font-weight:bold;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Book Store</h2>
+        <div class="row">
+            <div id="InputsSide" class="col-lg-12">
+                <h4>Name :</h4><input type="text" class="form-control" placeholder="Enter book name" />
+                <h4>Title :</h4><input type="text" class="form-control" placeholder="Enter title" />
+                <h4>Author :</h4><input type="text" class="form-control" placeholder="Enter Author" />
+                <button id="ADDbtn" class="btn btn-primary">Add Book</button>
+                <button id="AnotherFieldBtn" class="btn btn-success">Another Field</button>
+            </div>
+        </div>
+        <div id="TableSide" class="row">
+            <br />
+            <table id="myTable" >
+                <tr>
+                    <th><h4>Name</h4></th>
+                    <th><h4>Title</h4></th>
+                    <th><h4>Author</h4></th>
+                    <th><h4>ISBN</h4></th>
+                    <th></th>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C831L2ESMN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X3QJ0DTNX7');
+</script>
+
+</body>
+</html>
